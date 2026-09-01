@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="BarcodeEncoder/BarcodeEncoder.vcxproj" Id="4ac55ebb-e046-466c-85b1-05fd679de9a4" />
+</Solution>
