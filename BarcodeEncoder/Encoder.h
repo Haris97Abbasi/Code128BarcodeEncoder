@@ -10,14 +10,14 @@ namespace barcode {
 		std::vector<int> encode(const std::string& message) const;
 
 		// Used to calculate teh checksum
-		int calculateChecksum(const std::vector<int>& encodedValues);
+		static int calculateChecksum(const std::vector<int>& encodedValues);
 
 		// Used to encode a char into ASCII number
-		int encodeCharacter(char ch);
+		static int encodeCharacter(char ch);
 
 	private:
 		// Used for validation
-		void validate(const std::string& message);
+		static void validate(const std::string& message);
 
 	};
 }
