@@ -39,8 +39,8 @@ namespace barcode {
 		std::vector<int> finalSequence;
 		finalSequence.push_back(STARTCODE);
 		finalSequence.insert(finalSequence.end(), encodedMessage.begin(), encodedMessage.end());
-		finalSequence.push_back(STOPCODE);
 		finalSequence.push_back(checksum);
+		finalSequence.push_back(STOPCODE);
 
 		return finalSequence;
 	}
